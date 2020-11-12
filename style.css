@@ -85,6 +85,19 @@ aside ul li a:hover {
     border-bottom: 1px solid #FFF;
 }
 
+
+.center-image {
+    width: auto;
+    height: auto;
+
+}
+
+.center-image img {
+    width: 300px;
+    height: auto;
+
+}
+
 .text {
     width: 350px;
     color: #FFF;
@@ -95,9 +108,10 @@ aside ul li a:hover {
 }
 
 .jobs {
-    height: 550px;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-color: #FFF;
+    padding:5% ;
 }
 
 .jobs h1 {
@@ -172,7 +186,7 @@ footer {
 
 .footer-area {
     display: flex;
-    justify-content: space-between;
+    padding: 2%;
 }
 
 .footer-kiri {
@@ -224,18 +238,21 @@ input[type="text1"] {
 }
 
 .footer-kanan  {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    width: 50%;
     height: auto;
     margin-top: 20px;
     text-align: right;
 }
 
 .footer-kanan img {
-    width: 30%;
+    width: 15%;
     height: auto;
-    margin-bottom: 20px;
 }
 
-.footer-kanan
+.footer-kanan p {
+    line-height: 40px;
+}
+
+.footer-kanan .contact1 p{
+    margin-top: 150px;
+}
